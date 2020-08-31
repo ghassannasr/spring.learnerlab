@@ -145,7 +145,7 @@
 	* supports fields, setter, constructors and multi-argument methods injection
 	* together with `@Autowired`, clarifies which beans to be wired by specifying the bean name (wired by name)
 
-<img src = "https://www.logicbig.com/tutorials/spring-framework/spring-core/javaconfig-methods-inter-dependency/images/bean-params.png">
+<img src = "./img/bean-params.png">
 
 
 -
