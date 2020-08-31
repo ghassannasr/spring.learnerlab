@@ -145,7 +145,7 @@
 	* supports fields, setter, constructors and multi-argument methods injection
 	* together with `@Autowired`, clarifies which beans to be wired by specifying the bean name (wired by name)
 
-<img src = "./img/bean-params.png">
+<img src = "./bean-params.png">
 
 
 -
