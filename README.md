@@ -166,9 +166,9 @@
 
 -
 ### Part 10.2 - Create `InstructorsConfig`
-* The class should define a bean named `tcUsaInstructors()` which returns an `Instructors` representative of the Tech Connect USA instructors.
-* The class should define a bean named `tcUkInstructors()` which returns an `Instructors` representative of the Tech Connect UK instructors.
-* The class should define a bean named `instructors` which returns all `Instructors` employed at ZipCodeWilmington
+* The class should define a bean named `previousCohortInstructors()` which returns an `Instructors` object representative of the instructors in the previous cohort.
+* The class should define a bean named `currentCohortInstructors()` which returns an `Instructors` object representative of the current instructors.
+* The class should define a bean named `allInstructors()` which returns all instructors as an `Instructors` object.
 	* annotate this bean with `@Primary`
 		* this ensures Spring will inject this bean in the case that an `Autowire` annotation is not supplied with a `Qualifier` annotation
 
